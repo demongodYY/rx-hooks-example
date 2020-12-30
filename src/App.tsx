@@ -1,7 +1,8 @@
-import * as React from 'react';
-import {numberStore$, asyncNumberStore$, jsonStore$} from './store/';
-import {numAction} from './action';
-import {useStoreState, useStoreAction} from './hooks';
+import * as React from "react";
+import { numberStore$, asyncNumberStore$, jsonStore$ } from "./store/";
+import { numAction } from "./action";
+import { useStoreState, useStoreAction } from "./hooks";
+import "./App.less";
 
 export interface HelloProps {}
 
